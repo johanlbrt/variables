@@ -1,13 +1,7 @@
 fn main() {
-    let mut text = String::from("The x is:");
+    let x = 2.3333333333333333333333333; // f64
 
-    let x = 5; // The x is: 5
+    let y: f32 = 3.3333333333333333333333333; // f32
 
-    println!("{text} {x}");
-
-    let x = x + 5;
-
-    text = String::from("Then x is:");
-
-    println!("{text} {x}"); // Then x is: 10
+    println!("{} {}",x,y);
 }
