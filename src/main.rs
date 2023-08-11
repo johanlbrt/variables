@@ -1,7 +1,8 @@
 fn main() {
-    let x = 2.3333333333333333333333333; // f64
+    x_value(5);
+}
 
-    let y: f32 = 3.3333333333333333333333333; // f32
-
-    println!("{} {}",x,y);
+fn x_value(x: i32) {
+    let text = String::from("The value of x is:");
+    println!("{text} {x}");
 }
